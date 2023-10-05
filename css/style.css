@@ -49,6 +49,13 @@ img{
 
     }
 
+    a{
+        width: 100px;
+        height: 38px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
     .buttom{
         width: 153px;
         height: 38px;
@@ -56,28 +63,26 @@ img{
        margin-left: 80px;
     }
 
-     button1{
-        width: 66px;
-        height: 38px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #0FA47F;
-        color: white;
-        border-radius: 4px;
-        
-    }
-
-    button2{
+    button{
         width: 75px;
         height: 38px;
         display: flex;
         align-items: center;
         justify-content: center;
+        border: none;
         margin-left: 12px;
         font-size: 14px;
         background-color: #0FA47F;
         color: white;
         border-radius: 4px;
+        cursor: pointer;
        
     }
+
+     button #login{
+        width: 66px;
+        height: 38px;
+  
+    }
+
+   
