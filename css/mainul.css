@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Outfit:wght@400;700&family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "inter";
+
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+}
+
+.ladoesquerdo{
+    width: 261px;
+    height: 100vh;
+    background: #202123;
+}
+
+
+#button1 button{
+    width: 244px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    background: #343540;
+    color: #ffffff;
+    margin-top: 9px;
+    margin-left: 8px;
+    margin-right: 9px;
+}
+
+#button1 button img {
+    margin-right: 16px;
+
+}
+
+
+#button2 button{
+    width: 244px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    background: #444654;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+
+.ladoesquerdo h1{ 
+    width: 244px;
+    height: 0;
+    font-weight: 50;
+    margin-top: 260px; 
+    margin-left: 8px ;
+    color: #D9D9D9;
+    border: 1px solid #444654;
+
+}
+.ancora a {
+width: 176px;
+height: 14px;
+color: white;
+display: flex;
+align-items: center;
+margin-top: 35px;
+margin-left: 22px;
+text-decoration: none;
+font-size: 13.5px;
+font-weight: 500;
+
+}
+
+a img{
+    margin-right: 13px;
+}
+
+
+.ladodireito{
+    width: calc(100%-261px);
+    height:100vh;
+    background: #444654;  
+}
+
+
+h1{
+    width: 484px;
+    height: 33px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 23px;
+    margin-left: 204px;
+    color: white;
+    
+}
+
+.blocodireito{
+    width: 100vw;
+    height: 162px;
+    border: 2px solid red;
+}
+
+h2{
+    width: 628px;
+    height: 108px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 260px;
+    border: 2px solid red;
+}
+
+
