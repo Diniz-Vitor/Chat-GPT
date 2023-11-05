@@ -72,8 +72,9 @@ margin-bottom: 24px;
 
 label{
     position: absolute;
-    top:313px;
-    left: 670px;
+    top:325px;
+    left: 690px;
+    display: flex;
     color:#0FA47F;
     background: #ffffff;
    
